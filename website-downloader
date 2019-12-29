@@ -1,0 +1,10 @@
+#!/bin/sh
+# ask for website
+
+echo "Enter the website you want to download"
+read website
+
+mkdir ~/downloaded-websites
+cd ~/downloaded-websites
+echo "use CTRL + C to stop the download, as there is a high chance it will get stuck part way through"
+wget -r $website
