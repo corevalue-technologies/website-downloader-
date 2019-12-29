@@ -6,7 +6,7 @@ Script as a command to download whole website ;)
 
 you may add these in your path variable via your **~/.bash_profile** file
 
-## Usage of website-downloadee
+## Usage of website-downloader
 
 `$ ./website-downloader`
 
